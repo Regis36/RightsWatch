@@ -1,0 +1,14 @@
+@import "../../style.scss";
+
+.explore{
+    @include themify($themes){
+        .explore{
+
+            .body{
+
+            }
+
+        }
+  
+    }  
+}

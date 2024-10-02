@@ -1,0 +1,95 @@
+@import "../../style.scss"; 
+
+.navbar{
+    @include themify($themes){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        height:50px;
+        border-bottom: 1px solid themed("border");
+        background-color: themed("bg");
+        color: themed("textColor");
+        position:sticky;
+        top: 0;
+        z-index: 999;
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 30px; 
+            color:white;
+            span{
+                font-weight: bold;
+                font-size: 20px;
+                color: themed("logo");
+                font-family: 'Rubik Puddles' , serif;
+            }
+            span:hover{
+                color:lightblue;
+            }
+
+            .icons{
+                display: flex;
+                color: themed("textColor");
+                justify-content:space-between;
+                gap: 50px;
+            }
+
+            .search{
+                display: flex;
+                align-items: center;
+                gap:10px; 
+                border: 1px solid themed("border");
+                border-radius: 5px;
+                padding: 5px;
+                input{
+                    border: none; 
+                    width: 500px;
+                    background-color: transparent;
+                    color: themed("textColor");
+
+                    @include mobile{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .right{
+            display: flex;
+            align-items: center;
+            gap:30px;
+            color:white;
+
+            @include mobile{
+                display: none;
+            }
+
+            .icons{
+                display: flex;
+                color: themed("textColor");
+                justify-content:space-between;
+                gap: 50px;
+            }
+            .user{
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+                gap: 10px;
+                img{
+                    height: 40px;
+                    width: 40px; 
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                span{
+                    color: themed("logo")
+                }
+                
+            }
+        }
+
+    }
+    
+    
+}
