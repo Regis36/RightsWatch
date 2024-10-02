@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Rights-Watch/static/css/main.fc23890c.css",
+    "main.js": "/Rights-Watch/static/js/main.8a3b93ec.js",
+    "static/js/453.fe6cb330.chunk.js": "/Rights-Watch/static/js/453.fe6cb330.chunk.js",
+    "static/media/profilepic.JPG": "/Rights-Watch/static/media/profilepic.c4853e3f92b7dbb24772.JPG",
+    "static/media/Greta.jpeg": "/Rights-Watch/static/media/Greta.17aa247213bb784a4cdf.jpeg",
+    "static/media/UnitedSikhs.jpeg": "/Rights-Watch/static/media/UnitedSikhs.5ad9875452628651093e.jpeg",
+    "static/media/Internet_Society.png": "/Rights-Watch/static/media/Internet_Society.448b7caf6c065f1fc4b2.png",
+    "static/media/NAACP.png": "/Rights-Watch/static/media/NAACP.b310c9338dbb92cb0c77.png",
+    "static/media/HRW.png": "/Rights-Watch/static/media/HRW.d5cba858a4b70d3830f9.png",
+    "index.html": "/Rights-Watch/index.html",
+    "main.fc23890c.css.map": "/Rights-Watch/static/css/main.fc23890c.css.map",
+    "main.8a3b93ec.js.map": "/Rights-Watch/static/js/main.8a3b93ec.js.map",
+    "453.fe6cb330.chunk.js.map": "/Rights-Watch/static/js/453.fe6cb330.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc23890c.css",
+    "static/js/main.8a3b93ec.js"
+  ]
+}
